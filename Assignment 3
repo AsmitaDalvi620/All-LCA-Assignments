@@ -1,1 +1,34 @@
+"""To check whether or not the traingle is a right angled triangle using function.
+ Aim: Write a python program which accepts the length of three sides of a triangle as input.The program should indicate whether or not the triangle
+      is a right angled triangle using function."""
 
+def check_right_triangle(a,b,c):
+    largest=max(a,b,c)
+
+    if largest==a:
+        if b**2+c**2==a**2:
+            return True
+
+    elif largest==b:
+        if a**2+c**2==b**2:
+            return True
+
+    else:
+        if largest==c:
+            if a**2+b**2==c**2:
+                return True
+    return False
+a=int(input("Enter value of a="))
+b=int(input("Enter value of b="))
+c=int(input("Enter value of c="))
+
+display=check_right_triangle(a,b,c)
+if display==True:
+    print("It is a right angled triangle.")
+else:
+    print("It is not a right angled triangle.")
+
+#Output:Enter value of a= 5
+        Enter value of b= 12
+        Enter value of c= 13
+        It is a right angled triangle.
