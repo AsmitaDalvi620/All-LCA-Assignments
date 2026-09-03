@@ -9,3 +9,8 @@ elif b>a and b>c:
     print("Second number is the greatest",b)
 else:
     print("Third number is the greatest",c)
+
+#Output: Enter the first number: 27
+         Enter the second number: 89
+         Enter the third number: 0
+         Second number is the greatest 89
