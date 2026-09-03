@@ -1,28 +1,27 @@
 #Create list,tuple and dictionary and perform operations on dictionary.
+
 student_list=["Sradha","Advika","Disha","Manthan","Sarthak"]
 print("Student List:",student_list)
-
 student_tuple=("Sradha","Advika","Disha","Manthan","Sarthak")
 print("Student Tuple:",student_tuple)
-
 student_dict={100:"Sradha",101:"Advika",102:"Disha",103:"Manthan",104:"Sarthak"}
 print("Student Dictionary:",student_dict)
 
-Student List: ['Sradha', 'Advika', 'Disha', 'Manthan', 'Sarthak']
-Student Tuple: ('Sradha', 'Advika', 'Disha', 'Manthan', 'Sarthak')
-Student Dictionary: {100: 'Sradha', 101: 'Advika', 102: 'Disha', 103: 'Manthan', 104: 'Sarthak'}
+#Output:Student List: ['Sradha', 'Advika', 'Disha', 'Manthan', 'Sarthak']
+        Student Tuple: ('Sradha', 'Advika', 'Disha', 'Manthan', 'Sarthak')
+        Student Dictionary: {100: 'Sradha', 101: 'Advika', 102: 'Disha', 103: 'Manthan', 104: 'Sarthak'}
 
 #Add a new element in dictionary
 student_dict[105]="Palak"
 print("After adding:",student_dict)
-After adding: {100: 'Sradha', 101: 'Advika', 102: 'Disha', 103: 'Manthan', 104: 'Sarthak', 105: 'Palak'}
+#Output: After adding: {100: 'Sradha', 101: 'Advika', 102: 'Disha', 103: 'Manthan', 104: 'Sarthak', 105: 'Palak'}
 
 #Update a student's name
 student_dict[102]="Disha Rathi"
 print("After updating:",student_dict)
-After updating: {100: 'Sradha', 101: 'Advika', 102: 'Disha Rathi', 103: 'Manthan', 104: 'Sarthak', 105: 'Palak'}
+#Output: After updating: {100: 'Sradha', 101: 'Advika', 102: 'Disha Rathi', 103: 'Manthan', 104: 'Sarthak', 105: 'Palak'}
 
 #To delete a student info.
 del student_dict[103]
 print("After deleting:",student_dict)
-After deleting: {100: 'Sradha', 101: 'Advika', 102: 'Disha Rathi', 104: 'Sarthak', 105: 'Palak'}
+#Output: After deleting: {100: 'Sradha', 101: 'Advika', 102: 'Disha Rathi', 104: 'Sarthak', 105: 'Palak'}
