@@ -27,3 +27,8 @@ if display==True:
     print("It is a right angled triangle.")
 else:
     print("It is not a right angled triangle.")
+
+Output:Enter value of a= 5
+Enter value of b= 12
+Enter value of c= 13
+It is a right angled triangle.
